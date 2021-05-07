@@ -179,17 +179,6 @@ template {
     font-style: normal;
 }
 @font-face {
-    font-family: 'SF UI Text';
-    src: url('assets/fonts/SFUIText-Medium.eot');
-    src: local('SF UI Text Medium'), local('SFUIText-Medium'),
-        url('assets/fonts/SFUIText-Medium.eot?#iefix') format('embedded-opentype'),
-        url('assets/fonts/SFUIText-Medium.woff2') format('woff2'),
-        url('assets/fonts/SFUIText-Medium.woff') format('woff'),
-        url('assets/fonts/SFUIText-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
     font-family: 'SF Pro Display';
     src: url('assets/fonts/SFProDisplay-Semibold.eot');
     src: local('SF Pro Display Semibold'), local('SFProDisplay-Semibold'),
@@ -209,14 +198,7 @@ img {
   max-width: 1488px;
   padding-left: 50px;
   padding-right: 50px;
-  margin:0 auto;
-}
-@media (max-width: 768px) {
-  .container {
-    width:calc(100% - 40px);
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  margin:0 auto
 }
 body {
   font-family: 'SF UI Text';
@@ -226,15 +208,6 @@ h1 {
   font-family: 'SF Pro Display';
   font-weight: 600;
   font-size: 36px;
-  line-height: 1.33em;
-}
-@media (max-width: 960px) {
-  h1 {font-size: 24px;}
-}
-@media (max-width: 600px) {
-  h1 {font-size: 18px;}
-}
-main {
-  margin-top: 20px;
+  line-height: 48px;
 }
 </style>
